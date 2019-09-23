@@ -17,7 +17,7 @@ Etapes pour tester flask :
 
 5) Téléchargez le model à cette adresse : https://drive.google.com/file/d/1AXs7w3uj58VGBUlNLSgdGXGFG8dUcL6-/view?usp=sharing
 
-6) Déplacez le model téléchargé dans le dossier Models (FlaskSurfrider/Models/frozen_inference_graph.pb)
+6) Déplacez le model téléchargé dans le dossier models (FlaskSurfrider/models/frozen_inference_graph.pb)
 
 7) Lancez le serveur  
 	> python flasksurfrider.py  
