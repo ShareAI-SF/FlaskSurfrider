@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+		<link rel="stylesheet" href="{{ url_for('static',filename='styles/styles.css') }}">
+		<title>Loading</title>
+		<script>
+         setTimeout(function(){
+            window.location.replace('/predict/{{image_path}}');
+         }, 500);
+      </script>
+  </head>
+  <body>
+	<img id="kayak" src="{{ url_for('static', filename='img/galshir-kayak.gif') }}" alt= "kayak8.gif" width="800" height="500" />
+  </body>
+</html>
